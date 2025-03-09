@@ -5,21 +5,34 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
+    border: 1px solid rgb(0, 0, 0, 0.2);
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
+}
+
+h1 {
+    color: steelblue;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
 }
 
 p {
