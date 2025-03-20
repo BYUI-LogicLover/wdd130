@@ -1,3 +1,11 @@
+root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 main {
     max-width: 840px;
 }
@@ -11,9 +19,9 @@ main img {
 }
 
 aside {
+    margin: 10px auto;
     width: 20rem;
-    margin: 1rem;
-    padding: 1rem;
+    padding: var(--padding);
     border: 1px solid rgb(0, 0, 0, 0.2);
     background-color: #eee;
     color: #333;
@@ -25,8 +33,13 @@ aside img {
     height: auto;
 }
 
+h1, h2, h3, h4, h5, h6 { font-family: 'Sriracha-Regular', serif; }
+
 h1 {
-    color: steelblue;
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font), serif;
+    padding: var(--padding) ;
 }
 
 nav {
