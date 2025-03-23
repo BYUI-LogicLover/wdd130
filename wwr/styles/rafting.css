@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha:wght@400;900&family=Grape+Nuts:wght@400;700&display=swap');
-
 :root {
     --primary-color: #386FA4;
     --secondary-color: #59A5D8;
     --accent1-color: #84D2F6;
     --accent2-color: #91E5F6;
     --heading-text-color: black;
-    --heading-font: Sriracha-Regular, Helvetica, sans-serif;
-    --text-font: GrapeNuts-Regular, Helvetica, sans-serif;
+    --heading-font: Roboto, Helvetica, sans-serif;
+    --text-font: Ubuntu, Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Sriracha-Regular', serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Roboto, serif; }
 
 h2 {
     text-align: center;
@@ -53,7 +51,9 @@ main {
     max-width: 840px;
 }
 
-p { font-family: 'Sriracha-Regular', serif; }
+p {
+    font-family: var(--text-font), serif;
+}
 
 main img {
     float: right;
@@ -62,6 +62,11 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+section {
+    align-items: center;
+    margin: 100px 0;
 }
 
 section img {
