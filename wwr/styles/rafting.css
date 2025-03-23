@@ -1,5 +1,106 @@
-image {
-    float: left;
-    width: 100px;
+@import url('https://fonts.googleapis.com/css2?family=GrapeNuts-Regular&family=Sriracha-Regular&display=swap');
+
+:root {
+    --primary-color: #386FA4;
+    --secondary-color: #59A5D8;
+    --accent1-color: #84D2F6;
+    --accent2-color: #91E5F6;
+    --heading-text-color: black;
+    --heading-font: Sriracha-Regular, Helvetica, sans-serif;
+    --text-font: GrapeNuts-Regular, Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Sriracha-Regular', serif; }
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    color: var(--heading-text-color);
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
     height: auto;
+}
+
+body {
+    max-width: 1000px;
+    font-family: var(--heading-font), serif;
+    margin: 20px;
+    padding: 5px;
+}
+
+button .menu-toggle {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 840px;
+}
+
+p { font-family: 'Sriracha-Regular', serif; }
+
+main img {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+section img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    display: flex;
+    padding: 25px 50px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 25px;
+    height: auto;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 25%;
+    margin: 10px;
+}
+
+header nav {
+    margin-left: 40px;
+    font-size: 1.5rem;
+    color: var(--primary-color);
 }
