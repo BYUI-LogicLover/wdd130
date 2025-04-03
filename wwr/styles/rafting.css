@@ -44,7 +44,7 @@ input[name="name"], input[name="email"] {
     font-family: var(--text-font), serif;
 }
 
-form textarea {
+textarea {
     width: 80%;
     height: 100px;
     padding: var(--padding);
@@ -53,12 +53,17 @@ form textarea {
     font-family: var(--text-font), serif;
 }
 
-.button {
+button {
     background-color: green;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+form label, form input, form textarea, form fieldset, form legend {
+    margin-bottom: 10px;
+    display: block;
 }
 
 .blackheading {
