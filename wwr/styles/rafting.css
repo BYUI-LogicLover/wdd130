@@ -190,12 +190,11 @@ footer img {
 }
 
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     background-color: var(--secondary-color);
     padding: 10px;
     margin-bottom: 15px;
-    display: flex;
     align-items: center;
 }
 
