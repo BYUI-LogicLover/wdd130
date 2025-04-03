@@ -45,6 +45,13 @@ input[name="name"], input[name="email"] {
     font-family: var(--text-font), serif;
 }
 
+.label-text {
+    font-family: var(--text-font), serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
 textarea {
     width: 80%;
     height: 100px;

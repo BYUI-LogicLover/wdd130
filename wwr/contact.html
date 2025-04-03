@@ -35,21 +35,17 @@
     <p>Phone: 999-999-9999</p>
     <p>Address: 123 River Road</p>
     <p>Email: <a href="mailto:whiteknucklerapids@gmail.com?subject=Tell%20me%20more">White Knuckle Rapids</a></p>
-  </section>
-  <section>
     <h2>Where To Find Us</h2>
     <div class="map">
       <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8458.83914148858!2d-111.45673987170628!3d40.494032981530566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9a86c225b48f%3A0x3e9d750ccc30098a!2sProvo%20River!5e0!3m2!1sen!2sus!4v1743300284297!5m2!1sen!2sus"
           width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-  </section>
-  <section>
     <h2>Employee Profiles</h2>
     <div class="row-container">
       <figure>
         <img src="images/employee1.jpeg" alt="Brandon"/>
-        <figcaption>Brandon rowing hard!</figcaption>
+        <figcaption>Miles rowing hard!</figcaption>
       </figure>
       <figure>
         <img src="images/employee2.jpeg" alt="Steph"/>
@@ -60,16 +56,14 @@
         <figcaption>Emma taking a breather</figcaption>
       </figure>
     </div>
-  </section>
-  <section>
     <h2>Ask a question</h2>
     <form action="/submit-form-url">
       <fieldset>
         <legend>Contact Form</legend>
-        <label for="user-name">Name:</label>
+        <label class="label-text" for="user-name">Name:</label>
         <input type="text" name="name" id="user-name" required>
 
-        <label for="email">Email:</label>
+        <label class="label-text" for="email">Email:</label>
         <input type="email" name="email" id="email" required>
       </fieldset>
       <fieldset>
@@ -89,7 +83,7 @@
           <label for="suggestion">Website Suggestion</label>
         </div>
 
-        <label for="message">Message</label>
+        <label class="label-text" for="message">Message</label>
         <textarea name="message" id="message" required></textarea>
 
         <div class="checkbox-option">
@@ -97,9 +91,7 @@
           <label for="newsletter">Please subscribe me to the monthly newsletter</label>
         </div>
       </fieldset>
-      <section>
-        <button class="button submit-button" type="submit" value="Submit">Submit</button>
-      </section>
+      <button type="submit" class="button submit-button" value="Submit">Ask Question</button>
     </form>
   </section>
 </main>
