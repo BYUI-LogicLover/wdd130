@@ -74,20 +74,28 @@
       </fieldset>
       <fieldset>
         <legend>Questions</legend>
-        <input type="radio" id="general-inquiry" name="general" value="GENERAL_INQUIRY" class="radio-input" required>
-        <label for="general-inquiry">General Inquiry</label>
+        <div class="radio-option">
+          <input type="radio" id="general-inquiry" name="general" value="GENERAL_INQUIRY" class="radio-input" required>
+          <label for="general-inquiry">General Inquiry</label>
+        </div>
 
-        <input type="radio" id="reservation" name="reservation" value="RESERVATION_QUESTION" class="radio-input" required>
-        <label for="reservation">Reservation Question</label>
+        <div class="radio-option">
+          <input type="radio" id="reservation" name="reservation" value="RESERVATION_QUESTION" class="radio-input" required>
+          <label for="reservation">Reservation Question</label>
+        </div>
 
-        <input type="radio" id="suggestion" name="suggestion" value="WEBSITE_SUGGESTION"> Website Suggestion
-        <label for="suggestion">Suggestion</label>
+        <div class="radio-option">
+          <input type="radio" id="suggestion" name="suggestion" value="WEBSITE_SUGGESTION">
+          <label for="suggestion">Website Suggestion</label>
+        </div>
 
         <label for="message">Message</label>
         <textarea name="message" id="message" required></textarea>
 
-        <input type="checkbox" id="newsletter" name="newsletter">
-        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+        <div class="checkbox-option">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        </div>
       </fieldset>
       <button class="button" type="submit" value="Submit">
     </form>

@@ -61,6 +61,26 @@ button {
     cursor: pointer;
 }
 
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.radio-input {
+    margin-right: 0.5rem;
+}
+
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox-input {
+    margin-right: 0.5rem;
+}
+
 form label, form input, form textarea, form fieldset, form legend {
     margin-bottom: 10px;
     display: block;
