@@ -38,7 +38,8 @@ form {
 }
 
 input[name="name"], input[name="email"] {
-    width: 40%;
+    width: 300px;
+    height: 30px;
     border: var(--border);
     border-radius: 5px;
     font-family: var(--text-font), serif;
@@ -53,12 +54,14 @@ textarea {
     font-family: var(--text-font), serif;
 }
 
-button {
+.submit-button {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
     background-color: green;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
 }
 
 .radio-option {
