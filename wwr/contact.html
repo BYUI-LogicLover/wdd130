@@ -1,160 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <meta content="Travis Nelson" name="author"/>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Travis Nelson" name="author" />
   <meta
-      content="White Knuckle Rapids is a family-owned and operated business delivering unforgettable adventures for over 25 years. With experienced guides and trips catering to all skill levels, we ensure a safe and thrilling journey for every guest. Join us for the adventure of a lifetime!"
-      name="description"
-  />
-  <link href="styles/rafting.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com" rel="preconnect"/>
-  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    content="White Knuckle Rapids is a family-owned and operated business delivering unforgettable adventures for over 25 years. With experienced guides and trips catering to all skill levels, we ensure a safe and thrilling journey for every guest. Join us for the adventure of a lifetime!"
+    name="description" />
+  <link href="styles/rafting.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
   <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-  />
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
   <title>Contact Us | White Knuckle Rapids</title>
 </head>
+
 <body>
-<header>
-  <img
-      alt="White Knuckle Rafting Logo"
-      class="logo"
-      src="images/logo.jpg"
-  />
-  <nav class="main-nav">
-    <ul class="navigation">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="trips.html">Trips</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <div class="hero">
-    <h1 class="blackheading">Contact Us</h1>
-  </div>
-  <section class="message">
-    <h2>Send us a message</h2>
-    <p>White Knuckle Rapids</p>
-    <p>Phone: 999-999-9999</p>
-    <p>Address: 123 River Road</p>
-    <p>
-      Email:
-      <a href="mailto:whiteknucklerapids@gmail.com?subject=Tell%20me%20more"
-      >White Knuckle Rapids</a
-      >
-    </p>
-    <h2>Where To Find Us</h2>
-    <div class="map">
-      <iframe
-          allowfullscreen=""
-          height="450"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+  <header>
+    <img alt="White Knuckle Rafting Logo" class="logo" src="images/logo.jpg" />
+    <nav class="main-nav">
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <h1 class="blackheading">Contact Us</h1>
+    </div>
+    <section class="message">
+      <h2>Send us a message</h2>
+      <p>White Knuckle Rapids</p>
+      <p>Phone: 999-999-9999</p>
+      <p>Address: 123 River Road</p>
+      <p>
+        Email:
+        <a href="mailto:whiteknucklerapids@gmail.com?subject=Tell%20me%20more">White Knuckle Rapids</a>
+      </p>
+      <h2>Where To Find Us</h2>
+      <div class="map">
+        <iframe allowfullscreen="" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8458.83914148858!2d-111.45673987170628!3d40.494032981530566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9a86c225b48f%3A0x3e9d750ccc30098a!2sProvo%20River!5e0!3m2!1sen!2sus!4v1743300284297!5m2!1sen!2sus"
-          width="600"
-      ></iframe>
+          width="600"></iframe>
+      </div>
+      <h2>Employee Profiles</h2>
+      <div class="row-container">
+        <figure>
+          <img alt="Brandon" src="images/employee1.jpeg" />
+          <figcaption>Miles rowing hard!</figcaption>
+        </figure>
+        <figure>
+          <img alt="Steph" src="images/employee2.jpeg" />
+          <figcaption>Steph before the run.</figcaption>
+        </figure>
+        <figure>
+          <img alt="Emma" src="images/employee3.jpeg" />
+          <figcaption>Emma taking a breather</figcaption>
+        </figure>
+      </div>
+      <h2>Ask a question</h2>
+      <form action="/submit-form-url">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label class="label-text" for="user-name">Name:</label>
+          <input id="user-name" name="name" required type="text" />
+
+          <label class="label-text" for="email">Email:</label>
+          <input id="email" name="email" required type="email" />
+        </fieldset>
+        <fieldset>
+          <legend>Questions</legend>
+          <div class="radio-option">
+            <input class="radio-input" id="general-inquiry" name="general" required type="radio"
+              value="GENERAL_INQUIRY" />
+            <label for="general-inquiry">General Inquiry</label>
+          </div>
+
+          <div class="radio-option">
+            <input class="radio-input" id="reservation" name="reservation" required type="radio"
+              value="RESERVATION_QUESTION" />
+            <label for="reservation">Reservation Question</label>
+          </div>
+
+          <div class="radio-option">
+            <input id="suggestion" name="suggestion" type="radio" value="WEBSITE_SUGGESTION" />
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+
+          <label class="label-text" for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <div class="checkbox-option">
+            <input id="newsletter" name="newsletter" type="checkbox" />
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+          </div>
+        </fieldset>
+        <button class="cta-button" type="submit" value="Submit">
+          Ask Question
+        </button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 White Knuckle Rapids</p>
+    <div class="social-links">
+      <a href="https://app.moqups.com/MZIf68OLcHIODJ0HtQKYWTchTPAaeaPr/view/page/ad64222d5">
+        <img alt="Moqups" src="images/moqups.jpeg" />
+      </a>
+      <a href="https://facebook.com">
+        <img alt="Facebook" src="images/facebook.svg" />
+      </a>
+      <a href="https://x.com">
+        <img alt="X (formerly Twitter)" src="images/x.svg" />
+      </a>
+      <a href="https://instagram.com">
+        <img alt="Instagram" src="images/instagram.svg" />
+      </a>
     </div>
-    <h2>Employee Profiles</h2>
-    <div class="row-container">
-      <figure>
-        <img alt="Brandon" src="images/employee1.jpeg"/>
-        <figcaption>Miles rowing hard!</figcaption>
-      </figure>
-      <figure>
-        <img alt="Steph" src="images/employee2.jpeg"/>
-        <figcaption>Steph before the run.</figcaption>
-      </figure>
-      <figure>
-        <img alt="Emma" src="images/employee3.jpeg"/>
-        <figcaption>Emma taking a breather</figcaption>
-      </figure>
-    </div>
-    <h2>Ask a question</h2>
-    <form action="/submit-form-url">
-      <fieldset>
-        <legend>Contact Form</legend>
-        <label class="label-text" for="user-name">Name:</label>
-        <input id="user-name" name="name" required type="text"/>
-
-        <label class="label-text" for="email">Email:</label>
-        <input id="email" name="email" required type="email"/>
-      </fieldset>
-      <fieldset>
-        <legend>Questions</legend>
-        <div class="radio-option">
-          <input
-              class="radio-input"
-              id="general-inquiry"
-              name="general"
-              required
-              type="radio"
-              value="GENERAL_INQUIRY"
-          />
-          <label for="general-inquiry">General Inquiry</label>
-        </div>
-
-        <div class="radio-option">
-          <input
-              class="radio-input"
-              id="reservation"
-              name="reservation"
-              required
-              type="radio"
-              value="RESERVATION_QUESTION"
-          />
-          <label for="reservation">Reservation Question</label>
-        </div>
-
-        <div class="radio-option">
-          <input
-              id="suggestion"
-              name="suggestion"
-              type="radio"
-              value="WEBSITE_SUGGESTION"
-          />
-          <label for="suggestion">Website Suggestion</label>
-        </div>
-
-        <label class="label-text" for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <div class="checkbox-option">
-          <input id="newsletter" name="newsletter" type="checkbox"/>
-          <label for="newsletter"
-          >Please subscribe me to the monthly newsletter</label
-          >
-        </div>
-      </fieldset>
-      <button class="cta-button" type="submit" value="Submit">
-        Ask Question
-      </button>
-    </form>
-  </section>
-</main>
-<footer>
-  <p>&copy; 2025 White Knuckle Rapids</p>
-  <div class="social-links">
-    <a
-        href="https://app.moqups.com/MZIf68OLcHIODJ0HtQKYWTchTPAaeaPr/view/page/ad64222d5"
-    >
-      <img alt="Moqups" src="images/moqups.jpeg"/>
-    </a>
-    <a href="https://facebook.com">
-      <img alt="Facebook" src="images/facebook.svg"/>
-    </a>
-    <a href="https://x.com">
-      <img alt="X (formerly Twitter)" src="images/x.svg"/>
-    </a>
-    <a href="https://instagram.com">
-      <img alt="Instagram" src="images/instagram.svg"/>
-    </a>
-  </div>
-</footer>
-<script src="scripts/carousel.js"></script>
+  </footer>
+  <script src="scripts/carousel.js"></script>
 </body>
+
 </html>
