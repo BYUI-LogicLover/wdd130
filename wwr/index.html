@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Travis Nelson" name="author"/>
+  <meta
+      content="White Knuckle Rapids is a family-owned and operated business delivering unforgettable adventures for over 25 years. With experienced guides and trips catering to all skill levels, we ensure a safe and thrilling journey for every guest. Join us for the adventure of a lifetime!"
+      name="description"
+  />
+  <link href="styles/rafting.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+  />
+  <title>White Knuckle Rapids</title>
+</head>
+<body>
+<header>
+  <img
+      alt="White Knuckle Rafting Logo"
+      class="logo"
+      src="images/logo.jpg"
+  />
+  <nav class="main-nav">
+    <ul class="navigation">
+      <li><a aria-label="Home" href="index.html">Home</a></li>
+      <li><a aria-label="About Us" href="about.html">About Us</a></li>
+      <li><a aria-label="Trips" href="trips.html">Trips</a></li>
+      <li><a aria-label="Contact Us" href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div class="hero">
+    <img
+        alt="White Water Rapids"
+        class="hero-image"
+        loading="lazy"
+        src="images/hero.jpg"
+    />
+    <h1>White Knuckle Rapids</h1>
+  </div>
+  <section class="newsletter">
+    <h2>Sign Up for Our Newsletter</h2>
+    <fieldset>
+      <legend>Stay Updated</legend>
+      <p>
+        Join our mailing list to receive the latest news, special offers,
+        and updates about our thrilling rafting adventures!
+      </p>
+      <form action="#" class="newsletter-form" method="post">
+        <label for="name">Name:</label>
+        <input
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+            type="text"
+        />
+        <label for="email">Email:</label>
+        <input
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+            type="email"
+        />
+        <button
+            aria-label="Subscribe to Newsletter"
+            class="cta-button"
+            type="submit"
+            value="Submit"
+        >
+          Subscribe
+        </button>
+      </form>
+    </fieldset>
+  </section>
+  <section class="call-to-action">
+    <h2>Ready for an Adventure?</h2>
+    <p>
+      Discover our thrilling white water rafting trips designed for all
+      skill levels. Whether you're a beginner or an experienced rafter, we
+      have the perfect adventure waiting for you!
+    </p>
+    <a aria-label="Explore Our Trips" class="cta-button" href="trips.html"
+    >Explore Our Trips</a
+    >
+  </section>
+  <section class="grid-layout">
+    <h2>Why Choose White Knuckle Rapids?</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <h3>Unforgettable Adventures</h3>
+        <img
+            alt="Adventure on Rapids"
+            loading="lazy"
+            src="images/adventure.jpeg"
+        />
+        <p>
+          Experience the thrill of navigating white water rapids with our
+          expert guides. Perfect for adventure seekers of all skill levels.
+        </p>
+      </div>
+      <div class="grid-item">
+        <h3>Family-Friendly Trips</h3>
+        <img alt="Family Rafting" loading="lazy" src="images/family.jpeg"/>
+        <p>
+          We offer safe and enjoyable trips for families, ensuring a
+          memorable experience for everyone, young and old alike.
+        </p>
+      </div>
+      <div class="grid-item">
+        <h3>Stunning Scenery</h3>
+        <img
+            alt="Beautiful Nature"
+            loading="lazy"
+            src="images/nature.jpeg"
+        />
+        <p>
+          Immerse yourself in breathtaking landscapes and pristine rivers
+          while enjoying the adventure of a lifetime.
+        </p>
+      </div>
+    </div>
+  </section>
+  <button
+      aria-label="Back to Top"
+      class="cta-button back-to-top"
+      onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
+  >
+    Back to Top
+  </button>
+</main>
+<footer>
+  <p>&copy; 2025 White Knuckle Rapids</p>
+  <div class="social-links">
+    <a
+        aria-label="Moqups"
+        href="https://app.moqups.com/MZIf68OLcHIODJ0HtQKYWTchTPAaeaPr/view/page/ad64222d5"
+    >
+      <img alt="Moqups" loading="lazy" src="images/moqups.jpeg"/>
+    </a>
+    <a aria-label="Facebook" href="https://facebook.com">
+      <img alt="Facebook" loading="lazy" src="images/facebook.svg"/>
+    </a>
+    <a aria-label="X (formerly Twitter)" href="https://x.com">
+      <img alt="X (formerly Twitter)" loading="lazy" src="images/x.svg"/>
+    </a>
+    <a aria-label="Instagram" href="https://instagram.com">
+      <img alt="Instagram" loading="lazy" src="images/instagram.svg"/>
+    </a>
+  </div>
+</footer>
+</body>
+</html>
